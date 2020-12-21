@@ -1,0 +1,9 @@
+#carousel {
+  background: url(../img/cover.jpg) no-repeat center ;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: white;
+  @include search;
+}

@@ -1,0 +1,45 @@
+.header_left {
+    display: flex;
+    align-items: center;
+    a{
+        flex-grow: 1;
+    }
+    form {
+        flex-grow: 5;
+        
+           .form-control:focus {
+               box-shadow: none;
+               border:none;
+           }
+           i.fa.fa-search {
+            display:inline-block;
+            padding: 10px;
+            color:red;
+            background-color:white;
+            &:hover {
+                background-color: red;
+                color: white;
+            }
+            transition:0.4s;
+            cursor: pointer;
+        }
+    }
+    
+    .categories {
+        flex-grow: 1;
+        // position:absolute;
+        // top: 0;
+        // right: 20px;
+        margin: 0 50px;
+        cursor: pointer;
+    }
+   
+    
+
+   
+}
+.header-right {
+    .btn-login {
+        border:1px solid gray ;
+    }
+}
